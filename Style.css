@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: bordr-box;
+
+}
+.top-navbar{
+
+    height: 40px;
+    width: 100%;
+    background-color:#1c1b1b;
+    color: aliceblue;
+    display: flex;
+    font-size: .65rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.gbp{
+
+    margin-left: 4%;
+    font-size: 12px;
+        color: #6a6a6a;
+}
+.sec-navbar{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0%;
+}
+.logo{
+    height: 84px;
+    width: 80px;
+    margin-left: 41%;
+    background-color: white;
+    background-image: url(CR7-logo_2x_303833de-98c0-42d7-a8eb-7d8d4cab383e_80x.png);
+    background-size: cover;
+    
+}
+.acc{
+    margin-left: 30%;
+    color: #666;
+    font-size: 14px;
+
+}
+.search{
+    margin-left: 2%;
+    color: #666;
+    font-size: 14px;
+}
+.cart-nav{
+    height: 30px;
+    color:#1c1b1b;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+     font-size: 15px;
+    
+}
+.border{
+     background-color: #666;
+     border: none;
+     border: blue;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     opacity: 0.6;
+     transition: 0.3s;
+
+}
+.border:hover{
+    opacity: 1;
+
+}
+.bottumSec-nav{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size:13px;
+    justify-content: center;
+}
+.sec-let{
+
+    width: 90vh;
+    display: flex;
+    text-align: center;
+    
+}
+p{
+    margin-left: 6%;
+    font-size: 12px;
+
+    
+
+}
+.mainbag{
+    height: 730px;
+    width: 100%;
+    background-image: url(CR7Fragrances_Banner_1700X900_9bc4d6f8-a664-4c89-98c4-8f157bd42535_1800x.webp);
+    background-size: cover;
+}
+.shop-cover{
+    margin-top: 20px;
+    height: 270px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    
+    
+    
+}
+.box{
+    background-color: white;
+    height: 250PX;
+    width: 250PX;
+    border: 2px solid white(227, 12, 12);
+    margin-left: 7%;
+   
+}
+.box1-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(CR7InnnerProductImages_400x.webp);
+    background-size: cover;
+    font-size: .50rem;
+
+}
+.box2-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(Cr7Legacy100ml_400x.webp);
+    background-size: cover;
+    font-size: .50rem;
+
+}
+.box3-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(Cr7BathSets-1_01_400x.webp);
+    background-size: cover;
+    font-size: .50rem;
+
+}
+.box4-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(cr7\ dic.webp);
+    background-size: cover;
+    font-size: .50rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.mar{
+   margin-left: 8%;
+   margin-top: 10px;
+    font-size: .70rem;
+}
+p{
+    letter-spacing: .2rem;
+}
+.arrivial{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2em; /* adjust spacing to match screenshot */
+    text-transform: uppercase;
+      cursor: pointer;
+    
+
+}
+.product-price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  color: #666; /* lighter gray for price */
+  margin-left: 30%;
+   margin-top: 8px;
+    font-size: .50rem;
+
+}
+.video-background-container {
+    margin-top: 50px;
+  position: relative; /* Essential for positioning the video and overlay */
+  width: 100%; /* Or a fixed width */
+  height: 80vh; /* Or a fixed height, e.g., 500px */
+  overflow: hidden; /* Important to hide any overflow from the video */
+}
+
+.video-background-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%); /* Centers the video */
+  object-fit: cover; /* Ensures the video covers the entire container while maintaining aspect ratio */
+  z-index: -1; /* Places the video behind other content in the div */
+}
+.bottum-panel{
+    height: 450px;
+    width: 100%;
+    background-color:white;
+    
+    text-align: center;
+    margin-top: 7%;
+    align-items: center;
+    justify-items: center;
+    
+}
+.let1{
+     font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  color: #666; 
+
+}
+.search-bar{
+    width: 400px;
+    height: 30px;
+    background-color:white;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+.sub{
+    margin-top: 0%;
+    margin-left: 10px;
+    width:80px ;
+    height: 30px;
+    background-color: #1c1b1b;
+    color: white;
+    font-size: .60rem;
+    align-items: center;    
+    display: flex;
+
+    align-content: center;
+}
+.cart{
+    margin-left: 100px;
+}
+.sub-let{
+    margin-left: 20%;
+}
+.p{
+      cursor: pointer;
+
+}
+
+footer{
+
+    height: 700px;
+    width: 100%;
+  
+    padding-top: 20px;
+    display: flex;
+   border-top:1px #666 solid;
+}
+.fbox-1{
+    width: 380px;
+    height:420px ;
+    line-height: 1.5;
+    margin-left: 5%;
+}
+.topm{
+    margin-top: 30px;
+    font-size: 14px;
+     color: #666; 
+    
+}
+.fbox-2{
+    width: 128px;
+    height:420px ;
+  
+   line-height: 1.5;  
+    margin-left: 20%;
+ 
+
+
+}
+.fbox-3{
+    width: 250px;
+    height:420px ;
+   line-height: 1.5;    
+   margin-left: 15%;
+
+
+}
+.opm{
+    margin-top: 15px;
+    font-size: 14px;
+     color: #666; 
+    
+}
+.search-bar1{
+    width: 300px;
+    height: 100px;
+    background-color:white;
+    margin-top: 2%;
+
+}
+.sub2{
+    margin-top: 4%;
+    margin-left: 5px;
+    width:80px ;
+    height: 30px;
+    background-color: #1c1b1b;
+    color: white;
+    font-size: .60rem;
+    align-items: center;    
+    display: flex;
+
+    align-content: center;
+}
